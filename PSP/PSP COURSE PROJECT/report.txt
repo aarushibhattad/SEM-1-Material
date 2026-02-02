@@ -1,0 +1,15 @@
+PERSONAL FINANCE REPORT
+Generated on: Tue Jan 06 12:49:30 2026
+
+
+--- EXPENSES ---
+2026-04-12  fees  12000.00
+2025-12-06  fees  12890.00
+
+--- MONTHLY SUMMARY ---
+Month 04 : 12000.00
+Month 12 : 12890.00
+
+--- FINANCE GOALS ---
+party  Target: 12050.00  Saved: 1000.00  Progress: 8.3%
+party  Target: 4590.00  Saved: 1000.00  Progress: 21.8%
