@@ -1,0 +1,107 @@
+/* General Page Styling */
+body, html {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    /* background: linear-gradient(135deg, #1e3c72, #2a5298); */
+    color: #ffffff;
+}
+
+/* Background Video */
+#bgVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -2;
+}
+
+/* Dark overlay */
+.overlay {
+    background: rgba(10, 20, 50, 0.75);
+    min-height: 100vh;
+    padding: 25px;
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    color: #e3f2fd;
+    letter-spacing: 1px;
+}
+
+/* Form elements */
+form input {
+    padding: 10px;
+    margin: 6px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+/* Rounded Button Styling */
+button {
+    padding: 10px 20px;
+    margin: 6px;
+    border-radius: 25px;
+    border: none;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Button hover */
+button:hover {
+    background: linear-gradient(to right, #7f00ff, #e100ff);
+    transform: scale(1.1);
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+}
+
+/* Table styling */
+table {
+    width: 85%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Table borders */
+table, th, td {
+    border: 1px solid rgba(255,255,255,0.3);
+    text-align: center;
+    padding: 12px;
+}
+
+/* Table header */
+thead {
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 1.1rem;
+}
+
+/* Even row styling */
+tbody tr:nth-child(even) {
+    background-color: rgba(33, 150, 243, 0.25);
+    color: #e3f2fd;
+}
+
+/* Odd row styling */
+tbody tr:nth-child(odd) {
+    background-color: rgba(156, 39, 176, 0.25);
+    color: #f3e5f5;
+}
+
+/* Hover effect on rows */
+tbody tr:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.35);
+    color: #000;
+    font-size: 1.05rem;
+    transition: all 0.3s ease;
+}
+
+/* Smooth transition */
+tbody tr {
+    transition: all 0.3s ease;
+}

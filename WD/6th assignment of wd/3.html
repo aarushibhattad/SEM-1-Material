@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Team Quark</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="3.css">
+</head>
+
+<body>
+
+<h1>Team Quark</h1>
+<hr>
+
+<div class="container">
+
+<h2>Introduction:</h2>
+<p>
+Team Quark is a dynamic technical club driven by the motto
+“Ideate, Innovate, Collaborate.” Our mission is to nurture emerging
+and underrepresented technologies while fostering a passionate
+community of students.
+</p>
+
+<hr>
+
+<h2>Mission:</h2>
+<p>
+To foster technical innovation, skill development, and collaborative
+problem-solving by participating in hackathons and exploring emerging
+domains such as Rust and ROS.
+</p>
+
+<hr>
+
+<h2>Objective:</h2>
+<p><b>
+To establish Quark as a leading technical club that pioneers solutions
+in least-explored technical domains and empowers students globally.
+</b></p>
+
+<hr>
+
+<h2>Contact Us:</h2>
+<table class="table table-bordered">
+  <thead class="table-dark">
+  <tr>
+    <th>Student Coordinator</th>
+    <th>Class</th>
+    <th>Contact No.</th>
+  </tr>
+  </thead>
+  <tr>
+    <td>Aaditi</td>
+    <td>3rd Year</td>
+    <td>9120987680</td>
+  </tr>
+  <tr>
+    <td>Prasad</td>
+    <td>2nd Year</td>
+    <td>9120876543</td>
+  </tr>
+</table>
+
+<hr>
+
+<h2>Gallery:</h2>
+<div class="row g-3 text-center">
+  <div class="col-md-3 col-sm-6">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyJetizTtqoQFny6K-F67pSSaM0QHTxFzKZw&s"
+         class="img-fluid">
+  </div>
+  <div class="col-md-3 col-sm-6">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ4FdB5hO64pMTBF0gPqp0ybRCio8HZ9AJhQ&s"
+         class="img-fluid">
+  </div>
+  <div class="col-md-3 col-sm-6">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlVNBSFeDLq3Ws_Q98X-19s0UeS6dSuXLzgA&s"
+         class="img-fluid">
+  </div>
+  <div class="col-md-3 col-sm-6">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUfKe89xKckc5J8xbSdp_BYENI81DtGyO1uTPVCYp1b7EqFPqJIp_IZ5UzHEsblRmihKc&usqp=CAU"
+         class="img-fluid">
+  </div>
+</div>
+
+<hr>
+
+<h2>Registration Form For Team Quark:</h2>
+
+<form class="needs-validation" novalidate>
+        <div class="mb-3">
+            <label class="form-label">PRN</label>
+            <input type="text" class="form-control" required>
+            <div class="invalid-feedback">PRN is required</div>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Name</label>
+            <input type="text" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Phone</label>
+            <input type="text" class="form-control" pattern="[0-9]{10}" required>
+            <div class="invalid-feedback">Enter valid 10-digit number</div>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Gender</label><br>
+            <input type="radio" name="gender" required> Male
+            <input type="radio" name="gender" class="ms-3"> Female
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Class</label>
+            <select class="form-select" required>
+                <option value="">Select</option>
+                <option>A</option><option>B</option><option>C</option>
+                <option>D</option><option>E</option><option>F</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Branch</label>
+            <select class="form-select" required>
+                <option value="">Select</option>
+                <option>CS</option>
+                <option>AIDS</option>
+                <option>AIML</option>
+                <option>IT</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Doubts</label>
+            <textarea class="form-control" rows="4"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="reset" class="btn btn-secondary">Cancel</button>
+    </form>
+
+
+<hr>
+
+<h2>Video of Team Quark:</h2>
+<video class="w-100" controls>
+  <source src="C:\Users\EIPL\Desktop\html 1st assi\team quark.mp4" type="video/mp4">
+</video>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<script>
+(() => {
+  'use strict'
+  const forms = document.querySelectorAll('.needs-validation')
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+</script>
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,145 @@
+h1{
+    text-align: center;
+    color: black;
+    border:Inset;
+    border-radius: 18px;
+    border-color: rgb(72, 149, 212); 
+    border-width: 15px;
+    background-color: rgb(161, 187, 210);
+    padding: 30px 0;
+    font-size: 2.5em;
+    font-weight: bold;
+    letter-spacing: 1px;
+ }
+
+h2:hover{
+    text-align: left;
+    color: black;
+    list-style-type:square;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+    font-style: italic;
+    font-size: 2.5em;
+
+}    
+    
+p{
+   text-align: justify;
+   color:black;
+   padding-top: 25px;
+   padding-bottom: 25px;
+   padding-right: 50px;
+   padding-left: 50px;
+   font-family: black serif;
+   font-style:italic
+} 
+
+body{
+        /* background-color: slategray; */
+    background-image:url("https://marketplace.canva.com/EAGS_qOXjpI/1/0/1600w/canva-blue-and-purple-gradient-background-instagram-post-wE1uA0M0RPU.jpg");
+              
+    background-size: cover;            
+    background-position: center;      
+    background-repeat: no-repeat;     
+    background-attachment: fixed;      
+    }
+ 
+
+
+
+table{
+     width: 100%;
+     border-collapse: collapse;
+     margin: 30px 0;
+     font-size: 1em;
+    }
+
+table, th, td {
+            border: 1px solid #a6c7ea;
+        }
+
+        th {
+            background-color: #7e8be4;
+            color: rgb(18, 18, 19);
+            padding: 10px;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+        tr:nth-child(odd)
+        {
+            background-color: #ae90de;
+        }
+        tr:nth-child(even)
+        {
+            background-color:rgb(156, 40, 210);
+        }
+        tr:hover{
+            background-color: rgb(240, 161, 222);
+            transform:scale(1.25);
+        }
+
+form {
+            background-color: #bbc0c0;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+    }
+
+form h2{
+            text-align: center;
+            color: #0078d7;
+        }
+
+label{
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: 600;
+     }
+
+input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #3e7782;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+
+form button[type="submit"],
+form button[type="reset"] {
+    background-color: #0078d7 !important;
+    color: white !important;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button[type="submit"]:hover,
+form button[type="reset"]:hover {
+    background-color: #005bb5 !important;
+    transform: scale(1.1);
+}
+
+        
+h2:hover {
+transform: translateX(10px);
+transition: 0.3s ease;
+}
+      
+hr {
+    margin: 30px 0;
+    height: 2px;
+    border: none;
+    background-color: #a6c7ea;
+}
+
+.error{
+    color: red;
+    font-size: 20px;
+}
+      
