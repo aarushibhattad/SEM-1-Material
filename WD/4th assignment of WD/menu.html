@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CLUBS AT VIT</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+
+<body>
+
+
+<video autoplay muted loop id="bgVideo">
+    <source src="C:\Users\EIPL\Desktop\vit vedio.mp4" type="video/mp4">
+</video>
+
+<div class="overlay">
+
+    <h1><i>CLUBS AT VIT</i></h1>
+    <hr>
+
+    <p>
+        Life at VIT, Pune, is a great experience and educational journey that goes beyond academics,
+        creating a vibrant atmosphere for students to grow amidst the campus.
+        Students engage in co-curricular activities, enhance leadership skills,
+        and explore creativity through clubs and communities.
+    </p>
+
+    <hr>
+
+    <h2>Technical Clubs</h2>
+    <ul>
+        <li>Microsoft Learn Student Club</li>
+        <li>Team Endurance Racing</li>
+        <li>GedIT Coding Club</li>
+        <li><a href="1.html" target="frame2">IEEE VIT</a></li>
+        <li><a href="2.html" target="frame2">InnovSphere</a></li>
+        <li><a href="3.html" target="frame2">Team Quark</a></li>
+    </ul>
+
+    <hr>
+
+    <h2>Non-Technical Clubs</h2>
+    <ul>
+        <li>SPORTS</li>
+        <li>SW & D</li>
+        <li>VEDC</li>
+        <li>Speakers Club</li>
+        <li>Team Eklavya</li>
+        <li>RangManch</li>
+    </ul>
+
+    <hr>
+
+
+    <section>
+        <h2>Update Club Committee</h2>
+
+        <form id="committeeForm">
+
+           
+            <select id="clubName" required>
+                <option value="">Select Club</option>
+                <option value="EPEC">EPEC</option>
+                <option value="SW & D">SW & D</option>
+                <option value="C-Cube">C-Cube</option>
+                <option value="Team Eklavya">Team Eklavya</option>
+                <option value="Team Quark">Team Quark</option>
+                <option value="InnovSphere">InnovSphere</option>
+                <option value="IEEE">IEEE</option>
+            </select>
+
+            <input type="text" id="memberName" placeholder="Member Name" required>
+            <input type="text" id="position" placeholder="Position" required>
+
+            <button type="submit">Add Member</button>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Club</th>
+                    <th>Name</th>
+                    <th>Position</th>
+                </tr>
+            </thead>
+            <tbody id="committeeTable"></tbody>
+        </table>
+    </section>
+
+</div>
+
+<script src="menu.js"></script>
+</body>
+</html>
